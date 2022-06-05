@@ -1,0 +1,39 @@
+
+
+.arrow {
+height: 50px;
+position: absolute;
+cursor: pointer;
+
+    @include mobile {
+        display: none;
+    }
+
+    &.left {
+        left: 100px;
+        transform: rotateY(180deg);
+    }
+
+    &.right {
+        right: 100px;
+    }
+}
+
+.slider {
+height: 350px;
+display: flex;
+position: absolute;
+left: 0;
+transition: all 1s ease-out;
+
+    @include mobile {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.imgs {
+    height: 100%; 
+    width: 100%;
+}
