@@ -242,7 +242,7 @@
           <ul>
             <li><b>Coding Languages:</b> C++, C, Python, MATLAB, Rust</li>
             <li><b>Technical Skills:</b> Machine Learning & Data Science, Robotics</li>
-            <li><b>Soft Skills:</b> Communication & Public Speaking, Creativity</li>
+            <li><b>Soft Skills:</b> Simple Explanations of Complex Topics, Communication & Public Speaking, Creativity</li>
           </ul>
           
         </p>
@@ -290,41 +290,46 @@
               </div>
             </div>
             <div class="role brown-text text-darken-2">Robotics Engineering Intern</div>
+            <b>Accomplishments: </b>
             <ul>
               <li>
-                Helped design a landscaping robot's internal electronics, firmware, and code. I worked on ROS to ensure each component acted as it should, and in unison.
+                Calibrated wheel odomentry to within <b>2%</b> accuracy. 
               </li>
               <li>
-                Designed and created a convolutional neural network to catagorize the outside environment. 
-                <figure>
-                  <img src="/assets/img/Detectron.png" alt="Trulli" style="width:24%">
-                  <figcaption>Fig 1. Using Detectron2 to segement and mask people and vehicles</figcaption>
-                </figure>
-              </li>
-              <br/>
-              <li>While planning the internal electronics of the robot, I designed and 3D printed mounts for the parts when needed.
-                <figure>
-                  <img src="/assets/img/OpenSCADmount.png" alt="Trulli" style="width:24%">
-                  <figcaption>Fig 2. A part mount hand designed and printed</figcaption>
-                </figure>
-              </li>
-              <br/>
-              <li>
-                Planned and executed an algorithm to more accurately read an IMU heading from the magnetometer.
-                <figure>
-                  <img src="/assets/img/Sensor Calibration.png" alt="Trulli" style="width:24%">
-                  <figcaption>Fig 3. Linear Algebra Transformations on Sensor Data</figcaption>
-                </figure>
-              </li>
-              <br/>
-              <li>
-                I spent much of my time doing hands on work.  
+                Implemented machine learning network to detect adverse conditions. 
               </li>
               <li>
-                <b>Tools:</b> Python, C++, ROS, Linux, Tensorflow, Electronics
+                Reading many pages of documentation for CAN.
+              </li>
+              <li>
+                <b>Analytically</b> solved error function to fit IMU data to unit circle.
               </li>
             </ul>
-          </br>
+            <br/>
+            <b>Jobs: </b>
+            <ul>
+              <li>
+                <b>Electronics: </b>Designed and soldered board for internal sensors and Designed and 3D printed sensor mounts.
+              </li>
+              <li>
+                <b>Firmware: </b>Used a Teensy microcontroller to control internal electronics with CAN, using multithreading and ROS.
+                Designed and algorithm for calibrating an IMU and reading the resulting yaw.
+                <figure>
+                  <img src="/assets/img/Sensor Calibration.png" alt="Trulli" style="width:24%">
+                  <figcaption>Fig 1. Linear Algebra Transformations on Sensor Data</figcaption>
+                </figure>
+              </li>
+              <li>
+                <b>Software: </b>Used ROS to feed readings forward to a Kalman Filter and path planner, and reading sensors
+              </li>
+              <li>
+                <b>Machine Learning: </b>Used Facebook's Detectron on Linux to train a network on a custom dataset and use the network to detect adverse conditions.
+                <figure>
+                  <img src="/assets/img/Detectron.png" alt="Trulli" style="width:24%">
+                  <figcaption>Fig 2. Using Detectron2 to segement and mask people and vehicles</figcaption>
+                </figure>
+              </li>
+            </ul>
           </div>
           <div class="card-action">
             <span>May 2022 - August 2022 | Calgary, Canada</span>
@@ -853,6 +858,9 @@
               </div>
               <div class="col s4 m2">
                 <img alt="" src="/assets/img/OPENSCAD.jpg" class="responsive-img" />OpenSCAD
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/kalman.png" class="responsive-img" />Kalman Filters
               </div>
             </div>
           </div>
